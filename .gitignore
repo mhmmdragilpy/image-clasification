@@ -1,0 +1,13 @@
+# Ignore large dataset directories (downloaded automatically in Colab via curl)
+dataset/
+raw_combined_dataset/
+split_dataset/
+*.zip
+*.tar.gz
+
+# Python & Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+env/
+venv/
